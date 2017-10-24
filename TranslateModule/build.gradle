@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+android {
+
+
+    compileSdkVersion  rootProject.ext.compileSdkVersion
+    buildToolsVersion  rootProject.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+// aar config
+//repositories {
+//    flatDir {
+//        dirs 'libs'
+//    }
+//}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //compile(name: 'xxx', ext: 'aar')
+    //compile project(':xxx')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    /** 翻译类库 */
+    testCompile 'junit:junit:4.12'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile('io.reactivex.rxjava2:rxjava:2.1.0', {
+        exclude group: 'io.reactivex.rxjava2', module: 'rxjava'
+    })
+    compile 'com.ycjiang:Yutils:1.1.3'
+    compile files('libs/YoudaoWordOffline.jar')//离线查词sdk（可选，中英单词的离线查询）
+    compile files('libs/YoudaoTranslateOnline.jar')//在线翻译sdk（可选，包含英汉互译，以及小语种翻译，在线查询）
+    compile files('libs/YoudaoLineOffline.jar')//在线翻译sdk（可选，包含英汉互译，以及小语种翻译，在线查询）
+    //compile files('libs/YoudaoCnDictOffline.jar')//离线句子查询sdk（可选，中英离线句子查询）
+    compile files('libs/YoudaoBase.jar')//翻译相关sdk基础库（必选）
+    compile 'com.google.cloud:google-cloud-translate:1.5.1'
+}

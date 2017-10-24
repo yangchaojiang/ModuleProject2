@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item type="id" name="head_area">false</item>
+    <item type="id" name="ll_back">false</item>
+
+
+
+
+
+
+
+
+
+
+    <item type="id" name="relativeLayout">false</item>
+    <item type="id" name="login_layout_linear">false</item>
+    <item type="id" name="tab_layout">false</item>
+    <item type="id" name="ll_phone_numberLogin">false</item>
+    <item type="id" name="et_phoneNumber">false</item>
+    <item type="id" name="et_input_password">false</item>
+    <item type="id" name="checkBox_see_password">false</item>
+    <item type="id" name="ll_verfication_Login">false</item>
+    <item type="id" name="et_phone_number">false</item>
+    <item type="id" name="tv_sendverificationcode">false</item>
+    <item type="id" name="et_input_verification">false</item>
+    <item type="id" name="login">false</item>
+    <item type="id" name="click_view">false</item>
+    <item type="id" name="tv_register">false</item>
+    <item type="id" name="forget_password">false</item>
+
+
+</resources>

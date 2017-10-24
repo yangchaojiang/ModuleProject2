@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AliossModule/AliossModule.iml" filepath="$PROJECT_DIR$/AliossModule/AliossModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiduLocationModule/BaiduLocationModule.iml" filepath="$PROJECT_DIR$/BaiduLocationModule/BaiduLocationModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiduMapModule/BaiduMapModule.iml" filepath="$PROJECT_DIR$/BaiduMapModule/BaiduMapModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaodeModule/GaodeModule.iml" filepath="$PROJECT_DIR$/GaodeModule/GaodeModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuleProject2.iml" filepath="$PROJECT_DIR$/ModuleProject2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayModule/PayModule.iml" filepath="$PROJECT_DIR$/PayModule/PayModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QiniuModule/QiniuModule.iml" filepath="$PROJECT_DIR$/QiniuModule/QiniuModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShareutilModule/ShareutilModule.iml" filepath="$PROJECT_DIR$/ShareutilModule/ShareutilModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabLogin/TabLogin.iml" filepath="$PROJECT_DIR$/TabLogin/TabLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TengxunyunModule/TengxunyunModule.iml" filepath="$PROJECT_DIR$/TengxunyunModule/TengxunyunModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TranslateModule/TranslateModule.iml" filepath="$PROJECT_DIR$/TranslateModule/TranslateModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XunfeiModule/XunfeiModule.iml" filepath="$PROJECT_DIR$/XunfeiModule/XunfeiModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

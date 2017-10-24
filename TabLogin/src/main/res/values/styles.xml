@@ -1,0 +1,16 @@
+<resources>
+
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="TabLayoutTextStyle2">
+        <item name="android:textSize">15.0dip</item>
+    </style>
+    <style name="radiobutton_see_password">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+    </style>
+</resources>

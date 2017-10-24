@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AliossModule" />
+            <option value="$PROJECT_DIR$/BaiduLocationModule" />
+            <option value="$PROJECT_DIR$/BaiduMapModule" />
+            <option value="$PROJECT_DIR$/GaodeModule" />
+            <option value="$PROJECT_DIR$/PayModule" />
+            <option value="$PROJECT_DIR$/QiniuModule" />
+            <option value="$PROJECT_DIR$/ShareutilModule" />
+            <option value="$PROJECT_DIR$/TabLogin" />
+            <option value="$PROJECT_DIR$/TengxunyunModule" />
+            <option value="$PROJECT_DIR$/TranslateModule" />
+            <option value="$PROJECT_DIR$/XunfeiModule" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

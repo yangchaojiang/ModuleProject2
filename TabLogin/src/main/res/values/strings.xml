@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TabLogin</string>
+    <string name="forget_the_password">忘记密码</string>
+    <string name="new_user_registration">新用户注册</string>
+    <string name="login_hint">登录</string>
+    <string name="verification_code">验证码</string>
+    <string name="hint_get_code">获取验证码</string>
+    <string name="cell_phone_number">手机号</string>
+    <string name="login_password">登录密码</string>
+    <string name="verify_code_to_log_in_quickly">验证码快速登录</string>
+    <string name="mobile_phone_login">手机好登录</string>
+    <string name="please_input_limit_pwd">请输入数字或字母</string>
+    <string name="hint_login_username">请输入手机号码</string>
+    <string name="hint_login_password">输入密码</string>
+    <string name="please_input_limit_pwd_length">密码长度六位以上</string>
+</resources>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion  rootProject.ext.compileSdkVersion
+    buildToolsVersion  rootProject.ext.buildToolsVersion
+    signingConfigs {
+        releaseConfig {
+            keyPassword SIGNING_PWD
+            storeFile file('D:/work/SignatureFile/key.jks')
+            storePassword SIGNING_PWD
+            keyAlias SIGNING_NAME
+        }
+    }
+
+        defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode  rootProject.ext.versionCode
+        versionName  rootProject.ext.versionName
+        applicationId "com.moduleproject2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.releaseConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile project(':BaiduLocationModule')
+    compile project(':GaodeModule')
+    compile project(':TabLogin')
+}

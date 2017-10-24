@@ -1,0 +1,1 @@
+include ':app', ':BaiduLocationModule', ':GaodeModule', ':TranslateModule', ':AliossModule', ':PayModule', ':QiniuModule', ':TengxunyunModule', ':XunfeiModule', ':ShareutilModule', ':BaiduMapModule', ':TabLogin'
